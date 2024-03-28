@@ -7,7 +7,6 @@
     "files": [
         "package/**/*"
     ],
-    "private": false,
     "scripts": {
         "watch": "tsc -p ./tsconfig.build.json --watch",
         "build": "rimraf package && tsc -p ./tsconfig.build.json",
